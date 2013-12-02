@@ -1,0 +1,23 @@
+mikutter-kancolle
+
+* なにこれ
+  mikutterに、ゲーム「艦隊これくしょん」のアカウントを登録するためのプラグインです。
+
+* インストール方法
+#+BEGIN sh
+$ git clone https://github.com/toshia/mikutter-kancolle.git ~/.mikutter/plugin/kancolle
+
+$ sudo pacman -Syu webkit-gtk2 # Archの場合
+
+$ gem install webkit-gtk2  
+#+END
+
+または、bundler を使用している場合、mikutter.rbのあるディレクトリで bundle install
+
+* 使い方
+  インストールすると、艦これタブができています。あとは、ブラウザと同じように、出撃してください。
+
+* 不具合報告など
+  私は艦これやってないので、動くか見てません。今気づいたんですが、Webkit入れてもFLASH再生できるとは限らんよな…？
+  なんか無理だったらいい感じにして使ってください。無理だったら諦めてください。
+  Pull Requestは受け付けておりません。来ても無視します。
